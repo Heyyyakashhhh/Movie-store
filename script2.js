@@ -5,7 +5,7 @@ const mainDetails = document.querySelector(".mainDetails");
 //Display on Hmtl page
 const shomovies = async (movies) => {
   try {
-    mainDetails.innerHTML = `<div class="col-md-5" >
+    mainDetails.innerHTML = `<div class="col-md-5 mt-3" >
     <h1 class="movie-title display-1 text-wa">${movies.Title}</h1>
     <p><strong>Year:</strong> ${movies.Year} <strong><i class="fa-solid fa-star" style="color: #f3e335;"></i></strong> ${movies.imdbRating}</p>
     <p><strong>Genre:</strong>${movies.Genre}</p>
